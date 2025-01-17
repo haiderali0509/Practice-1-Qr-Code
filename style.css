@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Frank+Ruhl+Libre:wght@300..900&family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    /* Default is normal */
+}
+:root {
+    --white: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+    --para-font-size:15px;
+    --heading-font-size:1.5rem;
+    --body-font-f:'outfit', san-serif;
+    --small-fweight:400;
+    --big-fweight:700;
+}
+.main{
+    background-color: var(--Slate-300);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qr-code-card{
+    background-color: var(--white);
+    border-radius: 1rem;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.qr-code-card img{
+    width: 260px;
+    border-radius: 10px;
+    /* margin: 1rem; */
+}
+.content{
+    padding:0 1rem ;
+    
+}
+h3{
+    font-family: var(--body-font-f);
+    font-weight: bold;
+    font-size: var(--heading-font-size);
+    color: var(--Slate-900);
+    margin-bottom: 1rem;
+}
+p{
+    font-weight: normal;
+    font-size: var(--para-font-size);
+    color: var(--Slate-500);
+}
