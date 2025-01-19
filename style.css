@@ -17,7 +17,7 @@ html,body{
     --Slate-500: hsl(216, 15%, 48%);
     --Slate-900: hsl(218, 44%, 22%);
     --para-font-size:15px;
-    --heading-font-size:1.5rem;
+    --heading-font-size:22px;
     --body-font-f:'outfit', san-serif;
     --small-fweight:400;
     --big-fweight:700;
@@ -32,31 +32,35 @@ html,body{
 }
 .qr-code-card{
     background-color: var(--white);
-    border-radius: 1rem;
-    max-width: 300px;
+    border-radius: 20px;
+    max-width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    gap: 1rem;
-    padding: 1rem;
+    
+    gap:24px;
+    padding:16px;
+    padding-bottom: 40px;
 }
 .qr-code-card img{
-    width: 260px;
+    width: 288px;
     border-radius: 10px;
-    /* margin: 1rem; */
 }
 .content{
-    padding:0 1rem ;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 16px;
+    text-align: center;
 }
 h3{
-    font-family: var(--body-font-f);
+    /* font-family: var(--body-font-f); */
     font-weight: bold;
     font-size: var(--heading-font-size);
     color: var(--Slate-900);
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 p{
     font-weight: normal;
